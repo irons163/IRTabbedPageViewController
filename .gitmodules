@@ -1,0 +1,6 @@
+[submodule "Masonry"]
+	path = Masonry
+	url = https://github.com/SnapKit/Masonry.git
+    ignore = allMasonry
+Masonry
+Masonry
