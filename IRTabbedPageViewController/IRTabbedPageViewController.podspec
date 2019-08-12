@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/irons163/IRTabbedPageViewController.git", :tag => spec.version.to_s }
 # spec.source       = { :path => '.' }
   spec.dependency 'Masonry'
-  spec.source_files  = "Class/**/*.{h,m}", "IRTabbedPageViewController/Class/**/*.{h,m}"
+  spec.source_files  = "**/*.{h,m}", "IRTabbedPageViewController/**/*.{h,m}"
   spec.resources = ["**/*.xib", "IRTabbedPageViewController/**/*.xib"]
 #  spec.subspec 'SDWebImage' do |ss|
 #      ss.dependency 'SDWebImage', '~> 4.0'
