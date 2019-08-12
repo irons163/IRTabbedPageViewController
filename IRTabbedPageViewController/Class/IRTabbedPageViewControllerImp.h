@@ -11,14 +11,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class IRTabbedPageViewController;
+@class IRTabbedPageViewControllerImp;
 
 @protocol IRTabbedPageViewControllerDelegate <NSObject>
 @optional
-- (void)IR_tabbedController:(IRTabbedPageViewController *_Nullable)tabbedPageViewController didSelectIndex:(NSInteger)index;
+- (void)IR_tabbedController:(IRTabbedPageViewControllerImp *_Nullable)tabbedPageViewController didSelectIndex:(NSInteger)index;
 @end
 
-@interface IRTabbedPageViewController : IRPageViewController <IRTabBarViewDataSource, IRTabBarViewDelegate>
+@interface IRTabbedPageViewControllerImp : IRPageViewController <IRTabBarViewDataSource, IRTabBarViewDelegate>
 
 /**
  The tab bar view.

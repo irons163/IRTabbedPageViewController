@@ -7,32 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A4272D422D83E7100E02105 /* IRTabBarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272D222D83E7100E02105 /* IRTabBarAppearance.h */; };
+		8A16F90F22E6BB9900543127 /* IRTabStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A42731322D854F900E02105 /* IRTabStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A16F91022E6BC5D00543127 /* IRTabSizingStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A42731222D854AD00E02105 /* IRTabSizingStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A4272D422D83E7100E02105 /* IRTabBarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272D222D83E7100E02105 /* IRTabBarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A4272D522D83E7100E02105 /* IRTabBarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4272D322D83E7100E02105 /* IRTabBarAppearance.m */; };
-		8A4272DD22D83FFE00E02105 /* IRTabBarCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272DA22D83FFE00E02105 /* IRTabBarCollectionViewCell.h */; };
+		8A4272DD22D83FFE00E02105 /* IRTabBarCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272DA22D83FFE00E02105 /* IRTabBarCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A4272DE22D83FFE00E02105 /* IRTabBarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4272DB22D83FFE00E02105 /* IRTabBarCollectionViewCell.m */; };
 		8A4272DF22D83FFE00E02105 /* IRTabBarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4272DC22D83FFE00E02105 /* IRTabBarCollectionViewCell.xib */; };
 		8A4272E222D8405200E02105 /* IRTabBarCollectionViewCell+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272E022D8405200E02105 /* IRTabBarCollectionViewCell+Private.h */; };
-		8A4272E622D8409E00E02105 /* IRTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272E422D8409E00E02105 /* IRTabBarView.h */; };
+		8A4272E622D8409E00E02105 /* IRTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272E422D8409E00E02105 /* IRTabBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A4272E722D8409E00E02105 /* IRTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4272E522D8409E00E02105 /* IRTabBarView.m */; };
 		8A4272EA22D840EA00E02105 /* IRTabBarView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272E822D840E900E02105 /* IRTabBarView+Private.h */; };
-		8A4272EF22D841A300E02105 /* IRTabNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272ED22D841A300E02105 /* IRTabNavigationBar.h */; };
+		8A4272EF22D841A300E02105 /* IRTabNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272ED22D841A300E02105 /* IRTabNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A4272F022D841A300E02105 /* IRTabNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4272EE22D841A300E02105 /* IRTabNavigationBar.m */; };
 		8A4272F322D841B800E02105 /* IRTabNavigationBar+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272F122D841B800E02105 /* IRTabNavigationBar+Private.h */; };
-		8A4272F822D8430000E02105 /* IRPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272F622D8430000E02105 /* IRPageViewController.h */; };
+		8A4272F822D8430000E02105 /* IRPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272F622D8430000E02105 /* IRPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A4272F922D8430000E02105 /* IRPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4272F722D8430000E02105 /* IRPageViewController.m */; };
 		8A42730022D8432E00E02105 /* IRPageViewController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4272FE22D8432E00E02105 /* IRPageViewController+Private.h */; };
-		8A42730422D8449400E02105 /* IRCustomHeightNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A42730222D8449400E02105 /* IRCustomHeightNavigationBar.h */; };
+		8A42730422D8449400E02105 /* IRCustomHeightNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A42730222D8449400E02105 /* IRCustomHeightNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A42730522D8449400E02105 /* IRCustomHeightNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A42730322D8449400E02105 /* IRCustomHeightNavigationBar.m */; };
-		8A42730822D844B800E02105 /* UIView+IRAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A42730622D844B800E02105 /* UIView+IRAutoLayout.h */; };
+		8A42730822D844B800E02105 /* UIView+IRAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A42730622D844B800E02105 /* UIView+IRAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A42730922D844B800E02105 /* UIView+IRAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A42730722D844B800E02105 /* UIView+IRAutoLayout.m */; };
-		8A42730C22D844D500E02105 /* UIViewController+IRUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A42730A22D844D500E02105 /* UIViewController+IRUtilities.h */; };
+		8A42730C22D844D500E02105 /* UIViewController+IRUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A42730A22D844D500E02105 /* UIViewController+IRUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A42730D22D844D500E02105 /* UIViewController+IRUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A42730B22D844D500E02105 /* UIViewController+IRUtilities.m */; };
-		8A42731022D853B900E02105 /* IRTabControllerStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A42730E22D853B900E02105 /* IRTabControllerStyle.h */; };
+		8A42731022D853B900E02105 /* IRTabControllerStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A42730E22D853B900E02105 /* IRTabControllerStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A42731122D853B900E02105 /* IRTabControllerStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A42730F22D853B900E02105 /* IRTabControllerStyle.m */; };
 		8A710BC222D834FD007B61E9 /* IRTabbedPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A710BC022D834FD007B61E9 /* IRTabbedPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A710BD122D836B8007B61E9 /* IRTabbedPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A710BCF22D836B8007B61E9 /* IRTabbedPageViewController.h */; };
-		8A710BD222D836B8007B61E9 /* IRTabbedPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A710BD022D836B8007B61E9 /* IRTabbedPageViewController.m */; };
+		8A710BD122D836B8007B61E9 /* IRTabbedPageViewControllerImp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A710BCF22D836B8007B61E9 /* IRTabbedPageViewControllerImp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A710BD222D836B8007B61E9 /* IRTabbedPageViewControllerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A710BD022D836B8007B61E9 /* IRTabbedPageViewControllerImp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AD8156777A85F72C0D78B5B /* Pods-IRTabbedPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRTabbedPageViewController.debug.xcconfig"; path = "Target Support Files/Pods-IRTabbedPageViewController/Pods-IRTabbedPageViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		757AC10D1D1D80B8CDC6EA71 /* Pods_IRTabbedPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IRTabbedPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4272D222D83E7100E02105 /* IRTabBarAppearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRTabBarAppearance.h; sourceTree = "<group>"; };
 		8A4272D322D83E7100E02105 /* IRTabBarAppearance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRTabBarAppearance.m; sourceTree = "<group>"; };
 		8A4272DA22D83FFE00E02105 /* IRTabBarCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRTabBarCollectionViewCell.h; sourceTree = "<group>"; };
@@ -460,8 +464,9 @@
 		8A710BBD22D834FD007B61E9 /* IRTabbedPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IRTabbedPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A710BC022D834FD007B61E9 /* IRTabbedPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRTabbedPageViewController.h; sourceTree = "<group>"; };
 		8A710BC122D834FD007B61E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A710BCF22D836B8007B61E9 /* IRTabbedPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRTabbedPageViewController.h; sourceTree = "<group>"; };
-		8A710BD022D836B8007B61E9 /* IRTabbedPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRTabbedPageViewController.m; sourceTree = "<group>"; };
+		8A710BCF22D836B8007B61E9 /* IRTabbedPageViewControllerImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRTabbedPageViewControllerImp.h; sourceTree = "<group>"; };
+		8A710BD022D836B8007B61E9 /* IRTabbedPageViewControllerImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRTabbedPageViewControllerImp.m; sourceTree = "<group>"; };
+		C6112E02778C370D2E7E9ECA /* Pods-IRTabbedPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRTabbedPageViewController.release.xcconfig"; path = "Target Support Files/Pods-IRTabbedPageViewController/Pods-IRTabbedPageViewController.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -475,6 +480,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B8A6B9AC77E49EE13683592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AD8156777A85F72C0D78B5B /* Pods-IRTabbedPageViewController.debug.xcconfig */,
+				C6112E02778C370D2E7E9ECA /* Pods-IRTabbedPageViewController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8A4272EC22D8418500E02105 /* IRTabNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -499,6 +513,7 @@
 			isa = PBXGroup;
 			children = (
 				8A42731522D86B2800E02105 /* Masonry */,
+				757AC10D1D1D80B8CDC6EA71 /* Pods_IRTabbedPageViewController.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1085,6 +1100,7 @@
 				8A710BBF22D834FD007B61E9 /* IRTabbedPageViewController */,
 				8A710BBE22D834FD007B61E9 /* Products */,
 				8A42731422D86B2800E02105 /* Frameworks */,
+				3B8A6B9AC77E49EE13683592 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1109,8 +1125,8 @@
 		8A710BC822D83561007B61E9 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				8A710BCF22D836B8007B61E9 /* IRTabbedPageViewController.h */,
-				8A710BD022D836B8007B61E9 /* IRTabbedPageViewController.m */,
+				8A710BCF22D836B8007B61E9 /* IRTabbedPageViewControllerImp.h */,
+				8A710BD022D836B8007B61E9 /* IRTabbedPageViewControllerImp.m */,
 				8A710BCD22D8361C007B61E9 /* Model */,
 				8A710BCA22D835BE007B61E9 /* Components */,
 				8A710BC922D8358B007B61E9 /* Utilitis */,
@@ -1175,21 +1191,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A710BC222D834FD007B61E9 /* IRTabbedPageViewController.h in Headers */,
+				8A42731022D853B900E02105 /* IRTabControllerStyle.h in Headers */,
 				8A4272EA22D840EA00E02105 /* IRTabBarView+Private.h in Headers */,
+				8A710BD122D836B8007B61E9 /* IRTabbedPageViewControllerImp.h in Headers */,
+				8A42730C22D844D500E02105 /* UIViewController+IRUtilities.h in Headers */,
+				8A4272F822D8430000E02105 /* IRPageViewController.h in Headers */,
 				8A42730822D844B800E02105 /* UIView+IRAutoLayout.h in Headers */,
+				8A4272EF22D841A300E02105 /* IRTabNavigationBar.h in Headers */,
+				8A42730422D8449400E02105 /* IRCustomHeightNavigationBar.h in Headers */,
+				8A16F90F22E6BB9900543127 /* IRTabStyle.h in Headers */,
 				8A4272DD22D83FFE00E02105 /* IRTabBarCollectionViewCell.h in Headers */,
 				8A4272E622D8409E00E02105 /* IRTabBarView.h in Headers */,
-				8A42730C22D844D500E02105 /* UIViewController+IRUtilities.h in Headers */,
-				8A42731022D853B900E02105 /* IRTabControllerStyle.h in Headers */,
-				8A42730422D8449400E02105 /* IRCustomHeightNavigationBar.h in Headers */,
-				8A710BC222D834FD007B61E9 /* IRTabbedPageViewController.h in Headers */,
-				8A710BD122D836B8007B61E9 /* IRTabbedPageViewController.h in Headers */,
-				8A4272E222D8405200E02105 /* IRTabBarCollectionViewCell+Private.h in Headers */,
-				8A4272EF22D841A300E02105 /* IRTabNavigationBar.h in Headers */,
+				8A16F91022E6BC5D00543127 /* IRTabSizingStyle.h in Headers */,
 				8A4272D422D83E7100E02105 /* IRTabBarAppearance.h in Headers */,
+				8A4272E222D8405200E02105 /* IRTabBarCollectionViewCell+Private.h in Headers */,
 				8A42730022D8432E00E02105 /* IRPageViewController+Private.h in Headers */,
 				8A4272F322D841B800E02105 /* IRTabNavigationBar+Private.h in Headers */,
-				8A4272F822D8430000E02105 /* IRPageViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1200,6 +1218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A710BC522D834FD007B61E9 /* Build configuration list for PBXNativeTarget "IRTabbedPageViewController" */;
 			buildPhases = (
+				519828782AABD692CE01CBA1 /* [CP] Check Pods Manifest.lock */,
 				8A710BB822D834FD007B61E9 /* Headers */,
 				8A710BB922D834FD007B61E9 /* Sources */,
 				8A710BBA22D834FD007B61E9 /* Frameworks */,
@@ -1347,6 +1366,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		519828782AABD692CE01CBA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IRTabbedPageViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A710BB922D834FD007B61E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1359,7 +1403,7 @@
 				8A4272F022D841A300E02105 /* IRTabNavigationBar.m in Sources */,
 				8A42730522D8449400E02105 /* IRCustomHeightNavigationBar.m in Sources */,
 				8A4272D522D83E7100E02105 /* IRTabBarAppearance.m in Sources */,
-				8A710BD222D836B8007B61E9 /* IRTabbedPageViewController.m in Sources */,
+				8A710BD222D836B8007B61E9 /* IRTabbedPageViewControllerImp.m in Sources */,
 				8A4272DE22D83FFE00E02105 /* IRTabBarCollectionViewCell.m in Sources */,
 				8A42730922D844B800E02105 /* UIView+IRAutoLayout.m in Sources */,
 			);
@@ -1439,7 +1483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1495,7 +1539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1507,6 +1551,7 @@
 		};
 		8A710BC622D834FD007B61E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD8156777A85F72C0D78B5B /* Pods-IRTabbedPageViewController.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1531,6 +1576,7 @@
 		};
 		8A710BC722D834FD007B61E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6112E02778C370D2E7E9ECA /* Pods-IRTabbedPageViewController.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;

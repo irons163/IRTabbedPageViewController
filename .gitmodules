@@ -1,6 +1,8 @@
 [submodule "Masonry"]
 	path = Masonry
 	url = https://github.com/SnapKit/Masonry.git
-    ignore = allMasonry
-Masonry
-Masonry
+    ignore = all
+[submodule "IRSingleButtonGroup"]
+	path = IRSingleButtonGroup
+	url = https://github.com/irons163/IRSingleButtonGroup.git
+    ignore = all

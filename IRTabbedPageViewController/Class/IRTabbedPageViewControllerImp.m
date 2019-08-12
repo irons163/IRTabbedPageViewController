@@ -6,13 +6,13 @@
 //  Copyright © 2019 Phil. All rights reserved.
 //
 
-#import "IRTabbedPageViewController.h"
+#import "IRTabbedPageViewControllerImp.h"
 #import "IRPageViewController+Private.h"
 #import "IRTabNavigationBar+Private.h"
 #import "IRTabBarView+Private.h"
 #import <objc/runtime.h>
 
-@interface IRTabbedPageViewController () <UINavigationControllerDelegate>
+@interface IRTabbedPageViewControllerImp () <UINavigationControllerDelegate>
 
 #if !defined(IR_APP_EXTENSIONS)
 @property (nonatomic, weak) IRTabNavigationBar *tabNavigationBar;
@@ -22,7 +22,7 @@
 
 @end
 
-@implementation IRTabbedPageViewController
+@implementation IRTabbedPageViewControllerImp
 
 #pragma mark - Lifecycle
 
@@ -59,7 +59,7 @@
     if (self.tabNavigationBar && (self.tabBarView == self.tabNavigationBar.tabBarView)) {
         
         // if next view controller is not tabbed page view controller update navigation bar
-        self.allowTabBarRequiredCancellation = ![self.navigationController.visibleViewController isKindOfClass:[IRTabbedPageViewController class]];
+        self.allowTabBarRequiredCancellation = ![self.navigationController.visibleViewController isKindOfClass:[IRTabbedPageViewControllerImp class]];
         if (self.allowTabBarRequiredCancellation) {
             [self.tabNavigationBar tabbedPageViewController:self viewWillDisappear:animated];
         }
