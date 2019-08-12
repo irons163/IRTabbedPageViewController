@@ -6,10 +6,14 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/irons163/IRTabbedPageViewController.git"
   spec.license      = "MIT"
   spec.author       = "irons163"
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/irons163/IRTabbedPageViewController.git", :tag => spec.version.to_s }
 # spec.source       = { :path => '.' }
-  spec.dependency 'SDWebImage', '~> 4.0'
+  spec.dependency 'Masonry'
   spec.source_files  = "Class/**/*.{h,m}", "IRTabbedPageViewController/Class/**/*.{h,m}"
   spec.resources = ["**/*.xib", "IRTabbedPageViewController/**/*.xib"]
+#  spec.subspec 'SDWebImage' do |ss|
+#      ss.dependency 'SDWebImage', '~> 4.0'
+#      ss.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/SDWebImage"}
+#  end
 end
