@@ -67,9 +67,12 @@ Called when the page view controller completes a full scroll to a new page.
 
 ### Appearance
 `IRTabBarView` provides properties for appearance customisation, including:
-
 - `sizingStyle` - Whether the tab bar should size to fit or equally distribute its tabs.
-- `tabStyle` - The style to use for tabs, either `IRTabStyleText` for text or `IRTabStyleImage` for images.
+- `tabStyle` - The styles to use for tabs:
+    - `IRTabStyleText` for text.
+    - `IRTabStyleImage` for images.
+    - `IRTabStyleImageAndText` for images and text.
+    - `IRTabStyleCustomView` for custom view.
 - `indicatorStyle` - The style to use for the current tab indicator.
 - `indicatorAttributes` - Appearance attributes for current tab indicator.
 - `tabAttributes` - Appearance attributes for tabs.
@@ -79,6 +82,16 @@ Called when the page view controller completes a full scroll to a new page.
  - `IRTabTransitionStyleSnap` to snap between tabs during transitioning.
  - use `setTransitionStyle:` to set both the `selectionIndicatorTransitionStyle` and `tabTransitionStyle`.
 - `tabTransitionStyle` - The transition style to use for the tabs.
+
+#### Custom Tab Style
+Set custom tab view in the `IRTabBarViewDataSource`.
+
+```obj-c
+#pragma mark - IRTabBarViewDataSource
+- (void)tabBarView:(IRTabBarView *)tabBarView populateTab:(IRTabBarCollectionViewCell *)tab atIndex:(NSInteger)index {
+    tab.customView = YOUR_CUSTOM_TAB_VIEW;
+}
+```
 
 ## Screenshots
  ![Demo](./ScreenShots/demo1.png) 
