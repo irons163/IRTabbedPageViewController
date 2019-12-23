@@ -1,0 +1,20 @@
+PODS:
+  - IRTabbedPageViewController (1.0.0):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - IRTabbedPageViewController
+
+SPEC REPOS:
+  trunk:
+    - IRTabbedPageViewController
+    - Masonry
+
+SPEC CHECKSUMS:
+  IRTabbedPageViewController: c384cad4049b97fcf23641f0154be80e433f704d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 0facf3440faf5ccb28ca3ab883acfddef3e950f4
+
+COCOAPODS: 1.8.0.beta.2

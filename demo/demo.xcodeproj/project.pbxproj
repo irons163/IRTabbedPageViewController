@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,19 +15,16 @@
 		8A16F8E522E69DF200543127 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A16F8E422E69DF200543127 /* main.m */; };
 		8A16F8EE22E6A0A900543127 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A16F8EC22E6A0A900543127 /* TabViewController.m */; };
 		8A16F8EF22E6A0A900543127 /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A16F8ED22E6A0A900543127 /* TabViewController.xib */; };
+		8A1D65A3237BFED70089509E /* IRSingleButtonGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8BC74E22EFE0FE0069707E /* IRSingleButtonGroup.framework */; };
+		8A1D65A4237BFED70089509E /* IRSingleButtonGroup.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8BC74E22EFE0FE0069707E /* IRSingleButtonGroup.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8A3C130122FAAF3300FE50E1 /* TabButtom.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C130022FAAF3200FE50E1 /* TabButtom.m */; };
-		8A3C130622FABF9500FE50E1 /* IRTabbedPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A16F8FF22E6ADBB00543127 /* IRTabbedPageViewController.framework */; };
-		8A3C130722FABF9500FE50E1 /* IRTabbedPageViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A16F8FF22E6ADBB00543127 /* IRTabbedPageViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8A3C130A22FAC0A600FE50E1 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8BC74622EFE0EF0069707E /* Masonry.framework */; };
-		8A3C130B22FAC0A600FE50E1 /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8BC74622EFE0EF0069707E /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8A3C131122FBCB4A00FE50E1 /* Page1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C130F22FBCB4A00FE50E1 /* Page1ViewController.m */; };
 		8A3C131222FBCB4A00FE50E1 /* Page1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3C131022FBCB4A00FE50E1 /* Page1ViewController.xib */; };
 		8A3C131622FBCB5800FE50E1 /* Page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C131422FBCB5800FE50E1 /* Page2ViewController.m */; };
 		8A3C131722FBCB5800FE50E1 /* Page2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3C131522FBCB5800FE50E1 /* Page2ViewController.xib */; };
 		8A3C131B22FBCB6A00FE50E1 /* Page3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C131922FBCB6A00FE50E1 /* Page3ViewController.m */; };
 		8A3C131C22FBCB6A00FE50E1 /* Page3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3C131A22FBCB6A00FE50E1 /* Page3ViewController.xib */; };
-		8A8BC69722EEED7C0069707E /* IRSingleButtonGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8BC69622EEED7C0069707E /* IRSingleButtonGroup.framework */; };
-		8A8BC69822EEED7C0069707E /* IRSingleButtonGroup.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8BC69622EEED7C0069707E /* IRSingleButtonGroup.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD58F0DDCD712B5DD3010033 /* Pods_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A21CA43942C8D99AA4D416A /* Pods_demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +34,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 8A710BBD22D834FD007B61E9;
 			remoteInfo = IRTabbedPageViewController;
-		};
-		8A3C130822FABF9500FE50E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A16F8F622E6ADBA00543127 /* IRTabbedPageViewController.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A710BBC22D834FD007B61E9;
-			remoteInfo = IRTabbedPageViewController;
-		};
-		8A3C130C22FAC0A600FE50E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A8BC74022EFE0EF0069707E /* Masonry.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 3AED05B61AD59FD40053CC65;
-			remoteInfo = "Masonry iOS";
 		};
 		8A8BC74522EFE0EF0069707E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -82,9 +65,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8A8BC69822EEED7C0069707E /* IRSingleButtonGroup.framework in Embed Frameworks */,
-				8A3C130722FABF9500FE50E1 /* IRTabbedPageViewController.framework in Embed Frameworks */,
-				8A3C130B22FAC0A600FE50E1 /* Masonry.framework in Embed Frameworks */,
+				8A1D65A4237BFED70089509E /* IRSingleButtonGroup.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		77C584F56F233E0F2B4F4E05 /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.debug.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		8A16F8D222E69DDF00543127 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A16F8D522E69DDF00543127 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A16F8D622E69DDF00543127 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +88,7 @@
 		8A16F8EC22E6A0A900543127 /* TabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 		8A16F8ED22E6A0A900543127 /* TabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
 		8A16F8F622E6ADBA00543127 /* IRTabbedPageViewController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRTabbedPageViewController.xcodeproj; path = ../IRTabbedPageViewController.xcodeproj; sourceTree = "<group>"; };
+		8A21CA43942C8D99AA4D416A /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3C12FF22FAAF3200FE50E1 /* TabButtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabButtom.h; sourceTree = "<group>"; };
 		8A3C130022FAAF3200FE50E1 /* TabButtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabButtom.m; sourceTree = "<group>"; };
 		8A3C130E22FBCB4A00FE50E1 /* Page1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Page1ViewController.h; sourceTree = "<group>"; };
@@ -117,10 +100,9 @@
 		8A3C131822FBCB6A00FE50E1 /* Page3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Page3ViewController.h; sourceTree = "<group>"; };
 		8A3C131922FBCB6A00FE50E1 /* Page3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Page3ViewController.m; sourceTree = "<group>"; };
 		8A3C131A22FBCB6A00FE50E1 /* Page3ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page3ViewController.xib; sourceTree = "<group>"; };
-		8A8BC69622EEED7C0069707E /* IRSingleButtonGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IRSingleButtonGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A8BC69B22EFD3630069707E /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8BC74022EFE0EF0069707E /* Masonry.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Masonry.xcodeproj; path = ../Masonry/Masonry.xcodeproj; sourceTree = "<group>"; };
 		8A8BC74922EFE0FE0069707E /* IRSingleButtonGroup.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRSingleButtonGroup.xcodeproj; path = ../IRSingleButtonGroup/IRSingleButtonGroup.xcodeproj; sourceTree = "<group>"; };
+		99B4EF178E293EF33CE041EC /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.release.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,25 +110,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A8BC69722EEED7C0069707E /* IRSingleButtonGroup.framework in Frameworks */,
-				8A3C130622FABF9500FE50E1 /* IRTabbedPageViewController.framework in Frameworks */,
-				8A3C130A22FAC0A600FE50E1 /* Masonry.framework in Frameworks */,
+				8A1D65A3237BFED70089509E /* IRSingleButtonGroup.framework in Frameworks */,
+				CD58F0DDCD712B5DD3010033 /* Pods_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08FBC4FC95C242F8FD43260B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77C584F56F233E0F2B4F4E05 /* Pods-demo.debug.xcconfig */,
+				99B4EF178E293EF33CE041EC /* Pods-demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8A16F8C922E69DDF00543127 = {
 			isa = PBXGroup;
 			children = (
 				8A8BC74922EFE0FE0069707E /* IRSingleButtonGroup.xcodeproj */,
 				8A8BC74022EFE0EF0069707E /* Masonry.xcodeproj */,
-				8A8BC69B22EFD3630069707E /* Masonry.framework */,
-				8A8BC69622EEED7C0069707E /* IRSingleButtonGroup.framework */,
 				8A16F8F622E6ADBA00543127 /* IRTabbedPageViewController.xcodeproj */,
 				8A16F8D422E69DDF00543127 /* demo */,
 				8A16F8D322E69DDF00543127 /* Products */,
+				8A1D65A2237BFED70089509E /* Frameworks */,
+				08FBC4FC95C242F8FD43260B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,6 +185,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8A1D65A2237BFED70089509E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A21CA43942C8D99AA4D416A /* Pods_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A3C12FA22FAAF1800FE50E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,16 +226,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A16F8E822E69DF200543127 /* Build configuration list for PBXNativeTarget "demo" */;
 			buildPhases = (
+				D3AA54BA4E727B9F120BD863 /* [CP] Check Pods Manifest.lock */,
 				8A16F8CE22E69DDF00543127 /* Sources */,
 				8A16F8CF22E69DDF00543127 /* Frameworks */,
 				8A16F8D022E69DDF00543127 /* Resources */,
 				8A16F90422E6AE3700543127 /* Embed Frameworks */,
+				EAC9F88BFFDF27652434EF7D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A3C130922FABF9500FE50E1 /* PBXTargetDependency */,
-				8A3C130D22FAC0A600FE50E1 /* PBXTargetDependency */,
 			);
 			name = demo;
 			productName = demo;
@@ -338,6 +336,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D3AA54BA4E727B9F120BD863 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC9F88BFFDF27652434EF7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A16F8CE22E69DDF00543127 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -355,19 +395,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8A3C130922FABF9500FE50E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IRTabbedPageViewController;
-			targetProxy = 8A3C130822FABF9500FE50E1 /* PBXContainerItemProxy */;
-		};
-		8A3C130D22FAC0A600FE50E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Masonry iOS";
-			targetProxy = 8A3C130C22FAC0A600FE50E1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8A16F8DB22E69DDF00543127 /* Main.storyboard */ = {
@@ -503,10 +530,11 @@
 		};
 		8A16F8E922E69DF200543127 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C584F56F233E0F2B4F4E05 /* Pods-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T6VV6T753H;
+				DEVELOPMENT_TEAM = F7AP32ZTM5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/..",
 					"$(PROJECT_DIR)",
@@ -528,10 +556,11 @@
 		};
 		8A16F8EA22E69DF200543127 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B4EF178E293EF33CE041EC /* Pods-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T6VV6T753H;
+				DEVELOPMENT_TEAM = F7AP32ZTM5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/..",
 					"$(PROJECT_DIR)",
